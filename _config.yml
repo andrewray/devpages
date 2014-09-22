@@ -1,0 +1,4 @@
+name: Experimental pages
+markdown: kramdown
+pygments: true
+root_path: /devpages
