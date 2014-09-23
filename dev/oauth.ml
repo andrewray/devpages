@@ -97,6 +97,7 @@ end
 let hello : hello Js.t = Js.Unsafe.variable "hello"
 
 let main _ = 
+  let () = log "logging in" in
   let network = 
     let network = network() in
     network##github <- Js.string "a37e79e29d16dbde630f";
@@ -110,6 +111,7 @@ let main _ =
   in
   let () = hello##init(network, Js.Opt.empty) in
   let () = hello##login(Js.string "github", init_opts, Js.Opt.empty) in
+  let () = log "awaiting for callback" in
   let () = hello##on(Js.string "auth.login", Js.wrap_callback (fun e ->
     let network = Js.to_string e##network in
     log ("logged in to " ^ network))) in
