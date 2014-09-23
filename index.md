@@ -32,7 +32,7 @@ hello.on('auth.login', function(auth){
 hello.init({ 
 	github: 'a37e79e29d16dbde630f',
 },{
-  redirect_uri : 'redirect.html',
+  redirect_uri : 'http://andrewray.github.io/devpages/redirect.html',
   oauth_proxy : 'https://auth-server.herokuapp.com/proxy'
 });
 
