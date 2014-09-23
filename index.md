@@ -10,6 +10,8 @@ description: Experiments in html and js_of_ocaml
 <button onclick="hello( 'github' ).login()">Github</button>
 </div>
 
+<div id='profile_github'></div>
+
 <script src="js/hello.min.js"></script>
 <script src="js/oauth.js"></script>
 <script>
