@@ -6,6 +6,7 @@ description: Experiments in html and js_of_ocaml
 
 # Experimental stuff
 
+<!--
 <div>
 <button onclick="hello( 'github' ).login()">Github</button>
 </div>
@@ -37,5 +38,6 @@ hello.init({
   redirect_uri : 'http://andrewray.github.io/devpages/redirect.html',
   oauth_proxy : 'https://auth-server.herokuapp.com/proxy'
 });
+-->
 
 </script>
