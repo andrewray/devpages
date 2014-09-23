@@ -6,6 +6,9 @@ description: Experiments in html and js_of_ocaml
 
 # Experimental stuff
 
+<script src="js/hello.min.js"></script>
+<script src="js/oauth.js"></script>
+
 <!--
 <div>
 <button onclick="hello( 'github' ).login()">Github</button>
@@ -38,6 +41,6 @@ hello.init({
   redirect_uri : 'http://andrewray.github.io/devpages/redirect.html',
   oauth_proxy : 'https://auth-server.herokuapp.com/proxy'
 });
+</script>
 -->
 
-</script>
