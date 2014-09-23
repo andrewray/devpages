@@ -6,7 +6,9 @@ description: Experiments in html and js_of_ocaml
 
 # Experimental stuff
 
+<div>
 <button onclick="hello( 'windows' ).login()">windows</button>
+</div>
 
 <script src="js/hello.js"></script>
 <script src="js/oauth.js"></script>
