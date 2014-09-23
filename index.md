@@ -10,7 +10,7 @@ description: Experiments in html and js_of_ocaml
 <button onclick="hello( 'windows' ).login()">windows</button>
 </div>
 
-<script src="js/hello.js"></script>
+<script src="js/hello.min.js"></script>
 <script src="js/oauth.js"></script>
 <script>
 
