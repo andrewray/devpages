@@ -7,7 +7,7 @@ description: Experiments in html and js_of_ocaml
 # Experimental stuff
 
 <div>
-<button onclick="hello( 'windows' ).login()">windows</button>
+<button onclick="hello( 'github' ).login()">Github</button>
 </div>
 
 <script src="js/hello.min.js"></script>
