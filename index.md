@@ -30,7 +30,7 @@ hello.on('auth.login', function(auth){
 });
 
 hello.init({ 
-	facebook : 'a37e79e29d16dbde630f',
+	github: 'a37e79e29d16dbde630f',
 },{redirect_uri:'callback.html'});
 
 </script>
