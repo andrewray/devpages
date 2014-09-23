@@ -31,6 +31,8 @@ hello.on('auth.login', function(auth){
 
 hello.init({ 
 	github: 'a37e79e29d16dbde630f',
-},{redirect_uri:'callback.html'});
+},{
+  oauth_proxy : 'https://auth-server.herokuapp.com/proxy'
+});
 
 </script>
